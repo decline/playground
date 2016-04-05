@@ -4,7 +4,7 @@ declines Playground for stuff...
 Setup
 =====
 
-After checkout, install composer and run:
+After checkout, install composer and npm and run:
 
 * php composer.phar install
 * npm install
