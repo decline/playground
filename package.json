@@ -12,6 +12,6 @@
     "gulp-uglify": "^1.5.3",
     "gulp-rename": "^1.2.2"
   },
-  "author": "Dominik Huppmann <dominik.huppmann@udg.de>",
+  "author": "Dominik Huppmann <dominik.huppmann@gmail.com>",
   "license": "MIT"
 }

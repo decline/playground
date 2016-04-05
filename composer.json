@@ -1,15 +1,14 @@
 {
-    "name": "udg/playground",
-    "description": "Mein Playground",
-    "require": {
-        "components/jquery": "2.2.*"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Dominik Huppmann",
-            "email": "dominik.huppmann@udg.de"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "dominik.huppmann/playground",
+  "description": "Mein Playground",
+  "require": {
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominik Huppmann",
+      "email": "dominik.huppmann@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
 }

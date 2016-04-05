@@ -6,7 +6,6 @@
     "Dominik Huppmann"
   ],
   "license": "MIT",
-  "homepage": "udg.de",
   "ignore": [
     "**/.*",
     "node_modules",
