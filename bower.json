@@ -1,0 +1,20 @@
+{
+  "name": "playground-bower",
+  "version": "0.0.1",
+  "description": "My Dependencies for the Playground",
+  "authors": [
+    "Dominik Huppmann"
+  ],
+  "license": "MIT",
+  "homepage": "udg.de",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "~1.0.20"
+  }
+}
