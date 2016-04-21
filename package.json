@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "NPM Packages for Playground",
   "dependencies": {
+    "requirejs": "^2.2.0"
   },
   "devDependencies": {
     "bower": "^1.7.7",

@@ -16,6 +16,8 @@ log/*
 !log/.gitkeep
 node_modules/
 vendor/
+web/js/src
+
 *.box
 composer.phar
 Thumbs.db
