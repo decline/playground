@@ -16,7 +16,7 @@ log/*
 !log/.gitkeep
 node_modules/
 vendor/
-web/js/src
+web/js/app
 
 *.box
 composer.phar

@@ -4,17 +4,17 @@ require.config({
     // Relative urls continue to work normal (from source file).
     // However Non-relative URLs use this as base.
     // By default this is the location of requirejs.
-    baseUrl: './js/src',
+    baseUrl: './js/app',
     // Since I just used a relative url. This url is relative to this file.
 
 
-    paths: {
-        jquery: '../lib/jquery',
-        legacyJs: 'js/legacyJs', // Relative to baseUrl
-        legacyJsDependency: './js/legacyJsDependency' // Relative to this file
-
-        // Not adding newJs here simply to demonstrate how to access those directly from typescript without using paths
-    },
+    //paths: {
+    //    jquery: '../lib/jquery',
+    //    legacyJs: 'js/legacyJs', // Relative to baseUrl
+    //    legacyJsDependency: './js/legacyJsDependency' // Relative to this file
+    //
+    //    // Not adding newJs here simply to demonstrate how to access those directly from typescript without using paths
+    //},
 
     // For legacy files that do not export anything you need shims
     // For root level exports. http://requirejs.org/docs/api.html#config-shim
