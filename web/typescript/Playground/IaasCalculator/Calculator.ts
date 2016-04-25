@@ -5,6 +5,12 @@ import {ICalculator} from "./Interfaces/ICalculator";
  */
 export class Calculator implements ICalculator {
 
+    static staticArg:number = 666;
+
+    nonStaticArg:number = 667;
+
+    private nonStaticPrivateArg:number = 668;
+
     /**
      * The Constructor
      * @param name
@@ -19,7 +25,8 @@ export class Calculator implements ICalculator {
      * @returns {number}
      */
     calculate():number {
-        return 6 * 6;
+        this.myPrivateFunction();
+        return 6 * 6 * 2;
     }
 
     /**
@@ -28,5 +35,13 @@ export class Calculator implements ICalculator {
      */
     getInfo():string {
         return this.name + ' / ' + this.type;
+    }
+
+    static getPriceSign():string {
+        return '€';
+    }
+
+    private myPrivateFunction():string {
+        return this.name;
     }
 }

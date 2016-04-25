@@ -1,0 +1,1 @@
+export enum Courses {Math, English, Sports, Music}
