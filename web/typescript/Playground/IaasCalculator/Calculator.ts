@@ -3,7 +3,7 @@ import {ICalculator} from "./Interfaces/ICalculator";
 /**
  * Calculator class
  */
-export class Calculator implements ICalculator {
+export default class Calculator implements ICalculator {
 
     static staticArg:number = 666;
 

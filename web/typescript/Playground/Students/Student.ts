@@ -1,6 +1,6 @@
 import {Courses} from "../Enum/Courses";
 
-export class Student {
+export default class Student {
 
     age:number = 23;
 

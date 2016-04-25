@@ -1,5 +1,6 @@
-import {Student} from "./Playground/Students/Student";
-import {Calculator} from "./Playground/IaasCalculator/Calculator";
+import Student from "./Playground/Students/Student";
+import Calculator from "./Playground/IaasCalculator/Calculator";
+import Baarfoo = Foobar.Baarfoo;
 
 var student = new Student('Charlie Brown');
 var calculator = new Calculator('Elastic Cloud Server', 'VM');
@@ -26,3 +27,9 @@ console.log(formatDe);
 console.log(Calculator.getPriceSign());
 console.log(Calculator.staticArg);
 console.log(calculator.nonStaticArg);
+
+var foobar = new Foobar.Baarfoo();
+foobar.doSmth();
+
+var baarfoo = new Baarfoo();
+baarfoo.doSmth();
